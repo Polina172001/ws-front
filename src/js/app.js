@@ -135,7 +135,7 @@ function getCurrentTime() {
 const chat = new Chat('.container');
 chat.userID = uuidv4();
 
-const ws = new WebSocket('https://git.heroku.com/websocket-polina.git');
+const ws = new WebSocket('https://git.heroku.com/ws-backend-app.git');
 
 ws.addEventListener('open', () => {
   console.log('connected');
